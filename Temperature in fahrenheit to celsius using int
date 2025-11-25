@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int d;
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%d", &d);
+    printf("%.2d°F = %.2d°C\n", d, (d - 32) * 5/9);
+    return 0;
+}
