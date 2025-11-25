@@ -1,0 +1,12 @@
+include <stdio.h>
+int main() { 
+    float d;
+    printf("enter the temperature in celsius :");
+    scanf("%f",&d);
+    printf("%.2f°c =%.2fk\n",d,d+273.15);
+    
+    
+
+    
+    return 0;
+}
