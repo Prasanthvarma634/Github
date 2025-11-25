@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int d;
+    printf("Enter temperature in kelvin: ");
+    scanf("%d", &d);
+    printf("%.2d°k = %.2d°C\n", d, d - 273.15);
+    return 0;
+}
