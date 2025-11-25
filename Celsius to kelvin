@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() { 
     float d;
-    printf("enter the temperature in degree :");
+    printf("enter the temperature in celsius :");
     scanf("%f",&d);
-    printf("%.2fk\n =%.2fk°c",d,d+273.15);
+    printf("%.2f°c =%.2fk°\n",d,d+273.15);
     
     
 
