@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int ascii_value;
+    printf("ascii_value:");
+    scanf("%d",&ascii_value );
+    printf ("character  %c",ascii_value);
+
+    return 0;
+}
