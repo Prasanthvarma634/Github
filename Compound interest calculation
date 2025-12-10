@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+#include<math.h>
+
+int main () {
+
+    float P=50000 ;
+
+    float R=3 ;
+
+    float T=20;
+
+    float amount = P*pow((1+R/100),T) ;
+
+    float CI = amount - P;
+
+    printf ("CI=%f\n" , CI) ;
+
+    return 0;
+
+}
