@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int num=16 ;
+    int sqrt=0;
+    while (sqrt * sqrt < num) {
+        sqrt++ ;
+    }
+    if(sqrt * sqrt == num) {
+        printf ("%d is perfect square" , num) ;
+    }
+    else {
+        printf ("%d is not perfect square" , num) ;
+    }
+    return 0;
+}
