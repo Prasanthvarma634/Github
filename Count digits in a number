@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main() {
+    int num=12345, count = 0;
+    while (num !=0) {
+     num/= 10;
+     count++;
+    }
+    printf ("number of digits=%d\n" ,count) ;
+    return 0;
+}
