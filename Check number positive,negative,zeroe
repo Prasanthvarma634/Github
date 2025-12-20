@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main () {
+
+ int   num = -3;
+
+    if(num > 0) {
+
+       printf ("%d is positive integer \n" , num) ;
+
+
+    }
+
+    else if(num < 0) {
+
+    printf ("%d is negative integer \n" , num) ;
+
+    }
+    else {
+
+        printf ("number is zero") ;
+
+    }
+
+    return 0;
+
+}
