@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main() {
+
+    int a = 10 , b = 20 ;
+
+  int  *p = &a, *q = &b ;
+
+  if(*p<*q) {
+
+     printf("%d min value" , *p ) ;
+
+  }
+else 
+{
+
+  printf ("%d not min value" ,*q) ;
+
+  }
+
+  return 0;
+
+}
