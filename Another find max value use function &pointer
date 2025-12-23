@@ -1,0 +1,29 @@
+#include<stdio.h> 
+
+int findmax(int *p)
+{
+    int max=*p;
+
+    int i;
+
+    for(i=1 ; i<7 ;i++)
+{
+        if(*(p+i)>max)
+{
+            max = *(p+i) ;
+
+        }
+    }
+    return max;
+
+}
+int main()
+{
+    int arr[]={10, 20,30,5,6,8,90};
+
+    int max = findmax(arr);
+
+    printf ("max = %d",max);
+
+    return 0;
+}
