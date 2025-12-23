@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main() {
+
+  int arr[]={10, 80,40,70,90,100} ;
+
+   int *p = arr ;
+
+   int max = *p;
+
+   int i;
+
+   for( i=1 ; i< 6 ;i++) {
+
+       if(*(p+i) > max) {
+
+           max = *(p+i)  ;
+
+   }
+
+   }  
+
+       printf ("Max = %d" ,max) ;
+
+   
+   return 0;
+   
+}
+    
