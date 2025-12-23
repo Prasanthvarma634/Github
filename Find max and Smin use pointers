@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+
+  int arr[]={10, 5,4,30,40,90} ;
+
+    int *p = arr ;
+
+    int max, smin ;
+
+    int i;
+
+    max = smin = *p ;
+
+    for(i=1 ;i<6;i++) {
+
+        if(*(p+i)>max) {
+
+            max = *(p+i) ;
+
+        }
+
+        if(*(p+i)<smin) 
+{
+            smin = *(p+i) ;
+
+        }
+    }
+
+    printf ("max = %d\n" ,max) ;
+
+    printf ("smin = %d" ,smin);
+
+    return 0;
+
+}
