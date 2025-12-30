@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main() {
+    int i , n ;
+    float temp , sum = 0;
+    printf("enter n days :") ;
+    scanf("%d", &n) ;
+    printf("days %d temp:\n", n);
+    for(i=0 ; i<n ; i++) 
+{
+      scanf("%f" , &temp);
+      sum  = sum + temp ;
+    
+   printf("Day %d : %.1f°C\n" ,i+1,temp);
+ }
+   printf("sum : %.1f\n" , sum) ;
+
+  printf(" average: %.1f\n" , sum/n);
+
+    return 0;
+
+}
